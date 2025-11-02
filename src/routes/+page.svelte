@@ -99,8 +99,8 @@
 	<div class="mx-4 mt-4">
 		<Textarea class="max-h-40" placeholder={JSON.stringify(randomQuote)} bind:value={inputJson} />
 	</div>
-	<Card.Root class="mx-4 max-w-full h-full">
-		<Card.Content class="min-h-full">
+	<Card.Root class="mx-4 max-w-full flex-1 overflow-y-auto">
+		<Card.Content>
 			<div id="editor-code-mirror"></div>
 		</Card.Content>
 	</Card.Root>
